@@ -1,50 +1,51 @@
 export default function Services() {
+  /* Updated services to OB/GYN clinic offerings */
   const services = [
     {
-      title: 'General Checkup',
-      description: 'Comprehensive health assessments to monitor your overall wellness and prevent health issues.'
+      title: 'Antenatal Care',
+      description: 'Comprehensive prenatal screening, monitoring, and support throughout your pregnancy journey.'
     },
     {
-      title: 'Dental Care',
-      description: 'Professional dental services including cleanings, checkups, and cosmetic treatments.'
+      title: 'Delivery Services',
+      description: 'Safe and supportive delivery services with experienced medical professionals and modern facilities.'
     },
     {
-      title: 'Dermatology',
-      description: 'Specialized skin care treatments and consultations for all skin types and conditions.'
+      title: 'Gynecology',
+      description: 'Complete gynecological care including routine checkups, consultations, and specialized treatments.'
     },
     {
-      title: 'Orthopedics',
-      description: 'Treatment and management of bone, joint, and muscle disorders and injuries.'
+      title: 'Family Planning',
+      description: 'Personalized family planning consultations and services to help you make informed decisions.'
     },
     {
-      title: 'Cardiology',
-      description: 'Heart health evaluations and comprehensive cardiovascular disease management.'
+      title: 'Ultrasound & Labs',
+      description: 'Advanced ultrasound imaging and laboratory testing for accurate diagnosis and monitoring.'
     },
     {
-      title: 'Pediatrics',
-      description: 'Specialized healthcare services for infants, children, and adolescents.'
+      title: 'Post-Natal Care',
+      description: 'Comprehensive post-delivery care and support for mothers and newborns.'
     }
   ]
 
   return (
-    <section id="services" className="py-20 md:py-28 bg-muted">
+    <section id="services" className="py-20 md:py-28 bg-white">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
+          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
             Our Services
           </h2>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            We offer a wide range of medical services to meet all your healthcare needs.
+          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+            We offer comprehensive OB/GYN services to meet all your healthcare needs.
           </p>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {services.map((service, index) => (
-            <div key={index} className="bg-card border border-border rounded-lg p-6 hover:border-accent transition-colors">
-              <h3 className="text-lg font-bold text-foreground mb-3">
+            <div key={index} className="bg-blue-50 border border-blue-200 rounded-lg p-6 hover:border-blue-400 transition-colors">
+              <h3 className="text-lg font-bold text-gray-900 mb-3">
                 {service.title}
               </h3>
-              <p className="text-muted-foreground leading-relaxed">
+              <p className="text-gray-700 leading-relaxed">
                 {service.description}
               </p>
             </div>
@@ -52,8 +53,8 @@ export default function Services() {
         </div>
 
         <div className="mt-12 text-center">
-          <button className="bg-accent text-accent-foreground px-8 py-3 rounded-lg font-semibold hover:bg-accent/90 transition-colors">
-            Explore All Services
+          <button className="bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
+            Contact Us for More Information
           </button>
         </div>
       </div>
