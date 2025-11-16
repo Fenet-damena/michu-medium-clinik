@@ -4,13 +4,6 @@ export default function Hero() {
   return (
     <section className="bg-blue-900 py-20 md:py-32 text-white">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-center mb-12">
-          <img 
-            src="/michu-logo.png" 
-            alt="MICHU Medium Clinic Logo" 
-            className="h-32 w-32 object-contain"
-          />
-        </div>
         
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
