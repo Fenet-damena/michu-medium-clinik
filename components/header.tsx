@@ -24,10 +24,10 @@ export default function Header() {
         </div>
 
         <div className="hidden md:flex gap-8 items-center">
-          <Link href="/" className="text-gray-700 hover:text-amber-600 transition-colors">
+          <Link href="/about" className="text-gray-700 hover:text-amber-600 transition-colors">
             About
           </Link>
-          <Link href="/" className="text-gray-700 hover:text-amber-600 transition-colors">
+          <Link href="/services" className="text-gray-700 hover:text-amber-600 transition-colors">
             Services
           </Link>
           <Link href="/contact" className="text-gray-700 hover:text-amber-600 transition-colors">
@@ -49,10 +49,10 @@ export default function Header() {
 
         {isOpen && (
           <div className="absolute top-16 left-0 right-0 bg-white border-b border-gray-200 md:hidden flex flex-col gap-4 p-4">
-            <Link href="/" className="text-gray-700 hover:text-amber-600 transition-colors">
+            <Link href="/about" className="text-gray-700 hover:text-amber-600 transition-colors">
               About
             </Link>
-            <Link href="/" className="text-gray-700 hover:text-amber-600 transition-colors">
+            <Link href="/services" className="text-gray-700 hover:text-amber-600 transition-colors">
               Services
             </Link>
             <Link href="/contact" className="text-gray-700 hover:text-amber-600 transition-colors">

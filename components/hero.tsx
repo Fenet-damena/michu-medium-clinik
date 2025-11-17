@@ -37,9 +37,11 @@ export default function Hero() {
               <button className="bg-amber-600 text-blue-900 px-8 py-3 rounded-lg font-semibold hover:bg-amber-500 transition-colors">
                 Book Appointment
               </button>
-              <button className="border-2 border-amber-600 text-amber-600 px-8 py-3 rounded-lg font-semibold hover:bg-blue-800 transition-colors">
-                Learn More
-              </button>
+              <Link href="/about" className="inline-block">
+                <button className="border-2 border-amber-600 text-amber-600 px-8 py-3 rounded-lg font-semibold hover:bg-blue-800 transition-colors">
+                  Learn More
+                </button>
+              </Link>
             </div>
           </div>
           <div className="bg-blue-800 rounded-lg h-80 flex items-center justify-center overflow-hidden border-2 border-amber-600">
