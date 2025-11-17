@@ -1,6 +1,5 @@
 import Header from '@/components/header'
 import Hero from '@/components/hero'
-import Clinic from '@/components/clinic'
 import WhyChooseUs from '@/components/why-choose-us'
 import Services from '@/components/services'
 import Footer from '@/components/footer'
@@ -10,7 +9,6 @@ export default function Home() {
     <>
       <Header />
       <Hero />
-      <Clinic />
       <WhyChooseUs />
       <Services />
       <Footer />
