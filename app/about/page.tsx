@@ -64,7 +64,7 @@ export default function AboutPage() {
             <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
               <div>
                 <img 
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo_5823568486641372061_x-removebg-preview-qlArg4yeSIhZdIKbm29JYVbJJXHdyo.png"
+                  src="/images/design-mode/photo_5823568486641372061_x-removebg-preview.png"
                   alt="Dr. Segni - OB/GYN Specialist"
                   className="rounded-lg shadow-lg"
                 />
