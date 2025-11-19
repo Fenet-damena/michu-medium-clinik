@@ -21,7 +21,7 @@ export default function Hero() {
         <div className="max-w-4xl text-center space-y-6 sm:space-y-8">
           {/* Clinic name with professional typography */}
           <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-white drop-shadow-2xl tracking-tight leading-tight">
-            Michhu Medium Clinick
+            Michu Medium Clinick
           </h1>
 
           {/* Doctor credentials */}
@@ -63,24 +63,22 @@ export default function Hero() {
           </div>
 
           {/* Contact information card */}
-          <div className="mt-8 sm:mt-12 bg-gradient-to-br from-purple-700/70 to-purple-800/70 backdrop-blur-md rounded-2xl p-6 sm:p-8 max-w-md mx-auto shadow-2xl border border-pink-300/30">
-            <div className="space-y-4">
-              <div className="text-pink-100">
-                <p className="text-xs sm:text-sm font-semibold uppercase tracking-wide mb-2">Location</p>
-                <p className="text-white font-bold text-lg">Nagelle Arsi 03 Wuha Limat</p>
-              </div>
-              <div className="border-t border-white/20 pt-4">
-                <p className="text-pink-200 font-semibold flex items-center justify-center gap-2 mb-3">
-                  <span className="text-lg">📞</span> Phone
-                </p>
-                <p className="text-white font-bold text-lg">09161828828</p>
-              </div>
-              <div className="border-t border-white/20 pt-4">
-                <p className="text-pink-200 font-semibold flex items-center justify-center gap-2 mb-2">
-                  <span className="text-lg">📱</span> Follow Us
-                </p>
-                <p className="text-white font-semibold">@drsegnimichuMC</p>
-              </div>
+          <div className="space-y-4">
+            <div className="text-pink-100">
+              <p className="text-xs sm:text-sm font-semibold uppercase tracking-wide mb-2">Location</p>
+              <p className="text-white font-bold text-lg">Nagelle Arsi 03 Wuha Limat</p>
+            </div>
+            <div className="border-t border-white/20 pt-4">
+              <p className="text-pink-200 font-semibold flex items-center justify-center gap-2 mb-3">
+                <span className="text-lg">📞</span> Phone
+              </p>
+              <p className="text-white font-bold text-lg">09161828828</p>
+            </div>
+            <div className="border-t border-white/20 pt-4">
+              <p className="text-pink-200 font-semibold flex items-center justify-center gap-2 mb-2">
+                <span className="text-lg">📱</span> Follow Us
+              </p>
+              <p className="text-white font-semibold">@drsegnimichuMC</p>
             </div>
           </div>
         </div>

@@ -1,14 +1,13 @@
 import type { Metadata } from 'next'
 import { Geist, Geist_Mono } from 'next/font/google'
-import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
 
 const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'HealthCare Clinic | Premium Medical Services',
-  description: 'Experience compassionate care at our state-of-the-art clinic with expert doctors and modern facilities.',
+  title: 'Michhu Medium Clinic | OB/GYN Services',
+  description: 'Trusted women\'s healthcare services by Dr. Segni',
   generator: 'app',
   icons: {
     icon: [
@@ -38,7 +37,6 @@ export default function RootLayout({
     <html lang="en">
       <body className={`font-sans antialiased`}>
         {children}
-        <Analytics />
       </body>
     </html>
   )
