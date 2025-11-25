@@ -14,7 +14,7 @@ export default function Hero() {
         backgroundAttachment: 'fixed'
       }}
     >
-      <div className="absolute inset-0 bg-gradient-to-b from-purple-900/40 via-pink-700/35 to-purple-800/45"></div>
+      <div className="absolute inset-0 bg-gradient-to-b from-blue-900/40 via-blue-700/35 to-blue-800/45"></div>
 
       {/* Content container with refined layout */}
       <div className="relative z-10 w-full flex items-center justify-center px-4 sm:px-6 lg:px-8 py-20">
