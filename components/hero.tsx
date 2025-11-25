@@ -62,25 +62,7 @@ export default function Hero() {
             </Link>
           </div>
 
-          {/* Contact information card */}
-          <div className="space-y-4">
-            <div className="text-pink-100">
-              <p className="text-xs sm:text-sm font-semibold uppercase tracking-wide mb-2">Location</p>
-              <p className="text-white font-bold text-lg">Nagelle Arsi 03 Wuha Limat</p>
-            </div>
-            <div className="border-t border-white/20 pt-4">
-              <p className="text-pink-200 font-semibold flex items-center justify-center gap-2 mb-3">
-                <span className="text-lg">📞</span> Phone
-              </p>
-              <p className="text-white font-bold text-lg">09161828828</p>
-            </div>
-            <div className="border-t border-white/20 pt-4">
-              <p className="text-pink-200 font-semibold flex items-center justify-center gap-2 mb-2">
-                <span className="text-lg">📱</span> Follow Us
-              </p>
-              <p className="text-white font-semibold">@drsegnimichuMC</p>
-            </div>
-          </div>
+         
         </div>
       </div>
     </section>
