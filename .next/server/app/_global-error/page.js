@@ -1,0 +1,10 @@
+var R=require("../../chunks/ssr/[turbopack]_runtime.js")("server/app/_global-error/page.js")
+R.c("server/chunks/ssr/012c3_ef709915._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__7edd1648._.js")
+R.c("server/chunks/ssr/012c3_next_dist_ba25c48b._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__4bf50230._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__f06446b2._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__66730f69._.js")
+R.c("server/chunks/ssr/abaee_medium-clinik__next-internal_server_app__global-error_page_actions_24a5b267.js")
+R.m(86498)
+module.exports=R.m(86498).exports
